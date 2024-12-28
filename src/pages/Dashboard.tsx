@@ -1,3 +1,4 @@
+import React from 'react';
 import { Users, Calendar, Clock, Activity } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 

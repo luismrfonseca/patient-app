@@ -1,8 +1,9 @@
+import React from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { Button } from '../../components/ui/Button';
-import { useTenantStore } from '../../store/tenantStore';
+import { Button } from '@/components/ui/Button';
+import { useTenantStore } from '@/store/tenantStore';
 
 const settingsSchema = z.object({
   name: z.string().min(2),
