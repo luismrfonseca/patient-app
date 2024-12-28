@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { useTenantStore } from '@/store/tenantStore';
-import type { License, LicenseUsage } from '@/types/license';
+import { useTenantStore } from '../store/tenantStore';
+import type { License, LicenseUsage } from '../types/license';
 
 export const useLicense = () => {
   const { currentTenant } = useTenantStore();

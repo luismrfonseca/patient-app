@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Plus, Search, Filter } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { PatientDialog } from '../components/patients/PatientDialog';
-import type { Patient, PatientFormData } from '@/types/patient';
+import type { Patient, PatientFormData } from '../types/patient';
 
 const Patients = () => {
   const { t } = useTranslation();
