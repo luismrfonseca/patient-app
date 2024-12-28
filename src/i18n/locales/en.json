@@ -1,0 +1,34 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search",
+    "loading": "Loading..."
+  },
+  "patients": {
+    "title": "Patients",
+    "addNew": "Add Patient",
+    "search": "Search patients...",
+    "filters": "Filters",
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+  "license": {
+    "status": {
+      "active": "Active",
+      "expired": "Expired",
+      "suspended": "Suspended"
+    },
+    "daysRemaining": "{{days}} days remaining",
+    "unlimited": "Unlimited",
+    "limits": {
+      "users": "{{used}}/{{total}} users",
+      "patients": "{{used}}/{{total}} patients",
+      "storage": "{{used}}/{{total}} GB storage"
+    }
+  }
+}

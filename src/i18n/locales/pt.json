@@ -1,0 +1,75 @@
+{
+  "common": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "search": "Pesquisar",
+    "loading": "A carregar..."
+  },
+  "dashboard": {
+    "title": "Painel",
+    "stats": {
+      "totalPatients": "Total de Pacientes",
+      "appointments": "Consultas",
+      "pending": "Pendentes",
+      "activeCases": "Casos Ativos"
+    },
+    "upcomingAppointments": "Próximas Consultas",
+    "recentActivity": "Atividade Recente"
+  },
+  "patients": {
+    "title": "Pacientes",
+    "addNew": "Adicionar Paciente",
+    "search": "Pesquisar pacientes...",
+    "filters": "Filtros",
+    "table": {
+      "name": "Nome",
+      "contact": "Contacto",
+      "birthDate": "Data de Nascimento",
+      "lastVisit": "Última Visita",
+      "status": "Estado",
+      "actions": "Ações"
+    },
+    "status": {
+      "active": "Ativo",
+      "inactive": "Inativo"
+    }
+  },
+  "settings": {
+    "title": "Definições",
+    "practice": {
+      "title": "Definições da Clínica",
+      "name": "Nome da Clínica",
+      "customDomain": "Domínio Personalizado"
+    },
+    "notifications": {
+      "title": "Notificações",
+      "appointmentReminders": "Lembretes de Consultas",
+      "birthdayGreetings": "Felicitações de Aniversário",
+      "followUpReminders": "Lembretes de Acompanhamento"
+    }
+  },
+  "license": {
+    "title": "Licença",
+    "status": {
+      "active": "Ativa",
+      "expired": "Expirada",
+      "suspended": "Suspensa"
+    },
+    "daysRemaining": "{{days}} dias restantes",
+    "unlimited": "Ilimitado",
+    "limits": {
+      "users": "{{used}}/{{total}} utilizadores",
+      "patients": "{{used}}/{{total}} pacientes",
+      "storage": "{{used}}/{{total}} GB armazenamento"
+    }
+  },
+  "navigation": {
+    "dashboard": "Painel",
+    "patients": "Pacientes",
+    "appointments": "Consultas",
+    "notifications": "Notificações",
+    "settings": "Definições"
+  }
+}
